@@ -13,8 +13,7 @@ edition = "2018"
 euclid = { version = "0.20", optional = true }
 peek-poke-derive = { version = "0.3", path = "./peek-poke-derive", optional = true }
 
-bincode = { git = "https://github.com/bincode-org/bincode.git", branch = "feature/deserde", features = ["derive"] }
-#bincode = { path = "../bincode", features = ["derive"] }
+bincode = "2.0.0-alpha.0"
 criterion = "0.2"
 serde = { version = "1.0", features = ["derive"] }
 
